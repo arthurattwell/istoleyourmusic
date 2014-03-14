@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* Styles for IStoleYourMusic.com */
+
+/* Structural elements */
+
+body {
+	margin: 0;
+	font-family: "Source Sans Pro", sans-serif;
+	}
+
+#wrapper {
+	margin: 3em auto 0 auto;
+	padding: 0 1em 2em 1em;
+	max-width: 960px;
+	}
+
+#header {}
+
+#content {}
+
+#footer-wrapper {
+	padding: 0 1em 2em 1em;
+	background-color: #09F;
+	min-height: 20em;
+	}
+
+#footer {
+	max-width: 960px;
+	margin: 0 auto 0 auto;
+	padding: 1em 0 0 0;
+	color: #FFF;
+	}
+
+#footer-one {
+	float: left;
+	max-width: 45%;
+	margin-right: 5%;
+	}
+
+#footer-two {
+	float: left;
+	max-width: 45%;
+	}
+
+/* Typography */
+
+h1 {
+	font-size: 2em;
+	margin: 0 0 0.25em 0;
+	}
+
+span.highlight {
+	background-color: #0C9;
+	padding: 0.1em 0.3em 0.1em 0.3em;
+	border-radius: 0.5em;
+}
+
+h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: normal;	
+	font-size: inherit;
+	}
+
+p {
+	margin: 0;
+	}
+
+p.call-to-action {
+	font-size: 2em;
+	margin: 0 0 0.5em 0;
+	}
+
+div.message {
+	clear: both;
+	font-size: 1.5em;
+	padding: 0.5em;
+	border: 1px solid #CCC;
+	background-color: gainsboro;
+	border-radius: 0.25em;
+	}
+
+p.narrative {
+	margin-bottom: 0.5em;
+	line-height: 140%;
+	max-width: 30em;
+	}
+
+div.footer {
+	margin: 0;
+	font-size: 1em;
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	}
+
+a {
+	text-decoration: none;
+	color: #66C;}
+
+a.home {
+	color: inherit;
+	}
+
+#footer a {
+	color: inherit;
+	background-color: #0CF;
+	padding: 0.1em 0.3em 0.1em 0.3em;
+	border-radius: 0.5em;
+	}
+	
+#footer a:hover {
+	background-color: #0FF;
+	}
+
+div.total-pledged {
+	font-size: 3.3em;
+	line-height: 0.8em;
+	}
+
+/* Forms */
+
+form {
+	margin: 2em 0 1em 0;
+	padding: 0.25em 1em 0.5em 1em;
+	border: 1px solid gainsboro;
+	border-radius: 0.5em;
+	}
+
+div.form-field {
+	margin: 0 0 1em 0;
+	}
+
+label {
+	min-width: 10em;
+	margin: 0;
+	}
+
+input {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1em;
+	padding: 0 0.2em 0 0.2em;
+	}
+
+input#artist_name, input#artist_site, input#email_address, input#nickname, input#confirm_email {
+	width: 20em;
+	}
+
+input#pledge_amount {
+	max-width: 3em;
+	}
+
+input.button {
+	margin: 0.5em 0 0 0;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 1em;
+	color: white;
+	background-color: #69C;
+	padding: 0.5em;
+	border: 1px solid #CCC;
+	border-radius: 0.5em;
+	}
+
+div.label-fineprint {
+	color: #0C9;
+	font-size: 0.8em;
+	margin: 0;
+	}
+
+div.form-error-message {
+	color: #F36;
+	float: right;
+	font-weight: bold;
+	}
